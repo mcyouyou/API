@@ -1,0 +1,53 @@
+﻿<local:MyCard Title="MCyouyou 公益群组服 网页服务" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+	<StackPanel Margin="25,40,23,15">
+		<!-- 这是第一行 -->
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyButton Margin="0,0,10,0" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="MCyouyou 官网" EventType="打开网页" EventData="https://www.mcyou.cn/" />
+			<local:MyButton Margin="0,0,10,0" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="MCyouyou皮肤站" EventType="打开网页" EventData="https://skin.mcyou.cn/" />
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyButton Margin="0,0,10,0" Width="400" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="MCyouyou 官网" EventType="打开网页" EventData="https://www.mcyou.cn/" />
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="快速启动MCyouyou之旅" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+	<StackPanel Margin="25,40,23,15">
+		<local:MyButton Margin="0,4,0,0" Width="250" Height="35" ColorType="Highlight"
+                    Text="快速进入 MCyouyou" EventType="启动游戏" EventData="1.20.4|mcyou.cn" ToolTip="服务器 IP：mcyou.cn" />
+		<local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="启动 Minecraft 1.20.4" EventType="启动游戏" EventData="1.20.4" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="MCyouyou社区" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="欢迎加入MCyouyou服务器的大家庭！&#xA;在这里有和谐友爱的氛围&#xA;以及——除了mcyouyou以外什么都聊的群友（划去" />
+		<!-- 这是第一行 -->
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="QQ 群聊" EventType="复制文本" EventData="660921988" ToolTip="点击复制群号" />
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="QQ 频道" EventType="复制文本" EventData="MCyouyou6th" ToolTip="点击复制频道号" />
+
+		</StackPanel>
+		<!-- 这是第二行 -->
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+			<Image Height="300" HorizontalAlignment="Center" Source="{path}\PCL\connect_code.png" />
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+
+<local:MyCard Title="赞助 MCyouyou" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+		<local:MyHint Margin="0,8,0,2" IsWarn="False"
+                    Text="非常感谢你对MCyouyou的支持！但MCyouyou暂不接受赞助，如果你十分想赞助的话，请多游玩~" />
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                    Text="MCyouyou目前由 MCyouyou 管理组（Project: MCyouyou World）运营。&#xA;如果你对Project: MCyouyou World感兴趣的话，不妨去我们的官网看看？" />
+	</StackPanel>
+</local:MyCard>
