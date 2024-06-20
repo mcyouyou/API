@@ -1,0 +1,12 @@
+{
+  "information": "This file is part of the internal structure of the DefaultSettings mod. Do NOT edit it! If you are a modpack creator, also do not include it in your pack export! This will break the mod!",
+  "currentHash": {
+    "Default/keys.txt": "4FBDA4B65D7DB69CB02BCC735757A884",
+    "Default/options.txt": "570F46EE2C7F74D2DA3D763FAA392FA4"
+  },
+  "targetProfile": "Default",
+  "currentProfile": "Default",
+  "privateIdentifier": "1af6097a-b21a-4dff-bd26-b3bc3804536a",
+  "firstBootUp": false,
+  "disableCreatorCheck": false
+}

@@ -1,0 +1,11 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#010 minecraft:forest
+#5E2 terralith:forested_highlands
+#0E5 terralith:highlands
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#5A5 biomesoplenty:orchard
+#5FF minecraft:river
+#204 biomesoplenty:rocky_shrubland
+#2CF biomesoplenty:shrubland
