@@ -3,7 +3,7 @@
   "author": "Pysio",
   "version": "1.0",
   "description": "",
-  "fileApi": "https://api.mcyou.cn/modepack",
+  "fileApi": "https://api.mcyou.cn/modpack",
   "files": [
     {
       "path": "blueprints/akaere/pack.json",
