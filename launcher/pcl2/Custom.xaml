@@ -17,9 +17,9 @@
 <local:MyCard Title="快速启动MCyouyou之旅" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
 	<StackPanel Margin="25,40,23,15">
 		<local:MyButton Margin="0,4,0,0" Width="250" Height="35" ColorType="Highlight"
-                    Text="快速进入 MCyouyou" EventType="启动游戏" EventData="1.20.4|mcyou.cn" ToolTip="服务器 IP：mcyou.cn" />
+                    Text="快速进入 MCyouyou" EventType="启动游戏" EventData="1.21.4|mcyou.cn" ToolTip="服务器 IP：mcyou.cn" />
 		<local:MyButton Margin="0,4,0,10" Width="250" Height="35"
-                    Text="启动 Minecraft 1.20.4" EventType="启动游戏" EventData="1.20.4" />
+                    Text="启动 Minecraft 1.21.4" EventType="启动游戏" EventData="1.21.4" />
 	</StackPanel>
 </local:MyCard>
 
